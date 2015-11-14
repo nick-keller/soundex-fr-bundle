@@ -1,0 +1,18 @@
+{
+  "name": "keller/soundex-fr-bundle",
+  "type": "symfony-bundle",
+  "description": "Compute a french soundex of a string.",
+  "keywords": [ "soundex", "metaphone", "Phonetics" ],
+  "license": "CC",
+  "authors": [
+    {
+      "name": "Nicolas Keller"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "autoload": {
+    "psr-4": { "Keller\\SoundexFrBundle\\": "" }
+  }
+}
