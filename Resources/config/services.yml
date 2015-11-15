@@ -1,0 +1,6 @@
+parameters:
+    soundex_fr_class: Keller\SoundexFrBundle\Services\SoundexFr
+
+services:
+    soundex_fr:
+        class: %soundex_fr_class%
